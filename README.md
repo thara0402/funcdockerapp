@@ -64,4 +64,6 @@ AzureWebJobsStorage=$storageConnectionString
 
 ```
 
+## Samples
+https://github.com/Azure-Samples/functions-linux-custom-image
 
