@@ -43,7 +43,9 @@ http://localhost:8080/api/HttpFunction?name=gooner
 
 ```shell-session
 $ docker push thara0402/funcapp:v0.1
+```
 
+```shell-session
 $ az group create --name gooner0111 --location westeurope
 $ az storage account create --name gooner0111 --location westeurope --resource-group gooner0111 --sku Standard_LRS
 $ az appservice plan create --name gooner0111 --resource-group gooner0111 --sku S1 --is-linux
